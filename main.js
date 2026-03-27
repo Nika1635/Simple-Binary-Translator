@@ -16,8 +16,8 @@ translateBinary.addEventListener('click', async (e) => {
     let character = ""
     binaryChunksFilter.map(item => {
             let decimal = parseInt(item, 2)
-            stringDecimal += decimal.toString() + " "
-            character += String.fromCharCode(decimal) + " "
+            stringDecimal += decimal.toString() + ""
+            character += String.fromCharCode(decimal) 
             console.log(item)
     })
 
